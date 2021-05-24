@@ -27,9 +27,7 @@ class Home extends Component{
                       <div className = "banner-text">
                           <h1 className="responsive-headline">
                           <img src={profilepic} className = "profilepic" alt="Sanjay Gonsalves"></img>
-                          
-                          
-                          <ReactTypingEffect className="typingeffect" text={['Hi, I am Sanjay Gonsalves','A San Diego based  Web Developer']} speed={60} eraseDelay={400}/>
+                          <ReactTypingEffect className="typingeffect" text={['Hi, I am Sanjay Gonsalves','A San Diego Web Developer']} speed={60} eraseDelay={700}/>
                           </h1>
                           <hr />
                          <h3>
