@@ -36,7 +36,9 @@ class Home extends Component{
                       </div>
                       
                   </div>
-           
+                  <p className="scrolldown">
+                        <a className="smoothscroll" href=""><i class="fas fa-arrow-circle-down"></i></a>
+                  </p>
                 
             </header>
         )
