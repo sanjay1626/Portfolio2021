@@ -239,6 +239,7 @@ ul#nav li.current a {
 
 #about .contact-details {
   width: 41.66667%;
+  padding-left: 20px;
 }
 #about .download {
   width: 58.33333%;
