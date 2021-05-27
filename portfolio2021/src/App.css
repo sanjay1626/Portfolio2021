@@ -309,10 +309,14 @@ ul#nav li.current a {
   padding-right: 10%;
 }
 
-.education,
-.work {
+.education {
   margin-bottom: 48px;
   padding-bottom: 24px;
+}
+.work {
+  padding-top: 48px;
+  padding-bottom: 24px;
+  padding-left: 2rem;
 }
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
@@ -327,7 +331,15 @@ ul#nav li.current a {
 #resume .date {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
+  margin-left: 5px;
 }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+#skill h1 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+  padding-left: 2rem;
+}
