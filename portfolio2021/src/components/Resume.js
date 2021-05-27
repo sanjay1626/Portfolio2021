@@ -47,15 +47,20 @@ class Resume extends Component{
                 <div className ="row " id ="skill">
                     <h1><span>Skills</span></h1>
                 <h3 className="info">
-                    <span>HTML/CSS</span><br />
-                    <br />
-                    <ProgressBar completed = {85} width ={500}/><br />
+                    <span>HTML5/CSS</span><br />
+                    <ProgressBar completed = {85} width ={500}/> <br />
+                    <span>JavaScript & JQuery</span><br />
+                    <ProgressBar completed = {80} width ={500} bgColor= 'rgb(241, 134, 134)' /><br />
+                    <span>Node</span><br />
+                    <ProgressBar completed = {75} width ={500} bgColor= '#11abb0'/> <br />
+                    <span>Express</span><br />
+                    <ProgressBar completed = {73} width ={500} bgColor= 'rgb(127, 161, 138)' /><br />
+                    <span>Mongodb & MySQL</span><br />
+                    <ProgressBar completed = {72} width ={500} bgColor= '#f06000' /><br />
+                    <span>ReactJs</span><br />
+                    <ProgressBar completed = {80} width ={500} bgColor='#ecea76'/> <br />
                     
-                    <span>JavaScript</span><br />
                     <br />
-                    <ProgressBar completed = {85} width ={500} bgColor= '#6e7881' /><br />
-                    <br />
-                  
                 </h3>
                 </div>
                  
