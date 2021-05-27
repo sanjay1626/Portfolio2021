@@ -313,7 +313,6 @@ ul#nav li.current a {
 .work {
   margin-bottom: 48px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #e8e8e8;
 }
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
@@ -329,3 +328,6 @@ ul#nav li.current a {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
 }
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
