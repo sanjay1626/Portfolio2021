@@ -4,6 +4,7 @@ import Social from './Social'
 import ReactTypingEffect from 'react-typing-effect';
 class Home extends Component{
     render(){
+        
         return(
             <header id="home">
                   <nav id ="nav-wrap">

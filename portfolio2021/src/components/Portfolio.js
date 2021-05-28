@@ -6,7 +6,7 @@ class Portfolio extends Component {
         return(
              
               
-                    <div className ="flex-container">
+                    <div className ="flex-container" id="portfolio">
                     <div id="myCarousel" className="carousel slide" data-ride="carousel">
             {/* Wrapper for slides */}
             <div className="carousel-inner">
