@@ -15,9 +15,15 @@ export default function ContactUs(){
           e.target.reset()
     }
   return(
-    <form className="contact-form" onSubmit={sendEmail}>
    
-    <label>Name</label>
+    <form className="contact-form" id ='contact' onSubmit={sendEmail}>
+        <div className ="section-head">
+          <div className ="col header-col">
+          <h1><span>Contact</span></h1>
+          </div>
+        </div>
+     <div className ='row'>
+     <label>Name</label>
     <input type="text" name="name" />
     
     <label>Email</label>
@@ -28,9 +34,14 @@ export default function ContactUs(){
     
     <label>Message</label>
     <textarea name="message" />
+   
+    <input className="submit" type="submit" value="Send Message" />
+     </div>
+
+    
 
 
-    <input type="submit" value="Send Message" />
+    
   </form>
   )
 }
