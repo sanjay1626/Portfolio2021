@@ -282,7 +282,7 @@ ul#nav li.current a {
 #resume {
   background: #fff;
   padding-top: 90px;
-  padding-bottom: 72px;
+  padding-bottom: 0px;
   overflow: hidden;
   margin-left: 1px;
   padding-left: 12rem;
@@ -357,8 +357,8 @@ ul#nav li.current a {
 
 .flex-container {
   background-color: #2f2d2e;
-
-  padding-top: 50px;
+  margin-top: 1px;
+  padding-top: 80px;
   padding-bottom: 73px;
   overflow: hidden;
   margin-left: 1px;

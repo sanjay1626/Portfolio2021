@@ -64,11 +64,7 @@ class Resume extends Component{
                 </h3>
                 
                 </div>
-                <div id ='myCarousel1'>
-                    <h1>
-                    <span>Check out some of my works...</span>
-                    </h1>
-                </div>
+                
            
              </div>
                
