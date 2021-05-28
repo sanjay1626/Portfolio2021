@@ -59,11 +59,17 @@ class Resume extends Component{
                     <ProgressBar completed = {72} width ={500} bgColor= '#f06000' /><br />
                     <span>ReactJs</span><br />
                     <ProgressBar completed = {80} width ={500} bgColor='#ecea76'/> <br />
-                    
                     <br />
+                    
                 </h3>
+                
                 </div>
-                 
+                <div id ='myCarousel1'>
+                    <h1>
+                    <span>Check out some of my works...</span>
+                    </h1>
+                </div>
+           
              </div>
                
             </section>

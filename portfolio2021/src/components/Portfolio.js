@@ -4,9 +4,9 @@ import React, {Component} from 'react';
 class Portfolio extends Component {
     render () {
         return(
-            
-            <div className ="container">
-                 <h1>Check Out Some of My Works.</h1>
+             
+              
+                    <div className ="flex-container">
                     <div id="myCarousel" className="carousel slide" data-ride="carousel">
             {/* Wrapper for slides */}
             <div className="carousel-inner">
@@ -51,6 +51,8 @@ class Portfolio extends Component {
               
           </div>
             </div>
+            
+           
             
             
         
