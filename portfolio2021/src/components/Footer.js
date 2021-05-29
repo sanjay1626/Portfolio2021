@@ -16,7 +16,11 @@ class Footer extends Component{
                     </ul>            
                 </div>
             </div>
-
+            <div id ='go-top'>
+            <a  className="smoothscroll" href="#home"><i className="fas fa-arrow-circle-up"></i></a>
+            </div>
+            
+     
           </footer>
 
             
