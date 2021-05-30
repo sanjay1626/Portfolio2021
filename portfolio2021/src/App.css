@@ -358,20 +358,21 @@ ul#nav li.current a {
 .flex-container {
   background-color: #2f2d2e;
   margin-top: 1px;
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 73px;
   overflow: hidden;
-  margin-left: 1px;
+  margin-left: 8rem;
   padding-left: 12rem;
+  width: 80%;
 }
-#myCarousel1 h1 {
+#myCarousel h4 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding-bottom: 0rem;
   padding-left: 1rem;
 }
-#myCarousel1 .carousel-caption {
+#myCarousel .carousel-caption {
   left: 0;
   right: 0;
   bottom: 0;
@@ -379,7 +380,7 @@ ul#nav li.current a {
   padding: 10px;
   background: rgba(0, 0, 0, 0.6);
   text-shadow: none;
-  height: 160px;
+  height: 120px;
 }
 
 #myCarousel .list-group {
@@ -625,7 +626,7 @@ footer .social-links li:first-child {
 /* Go To Top Button */
 #go-top {
   position: absolute;
-  top: -0px;
+  top: -1px;
   left: 50%;
   margin-left: -30px;
 }
@@ -633,9 +634,9 @@ footer .social-links li:first-child {
   text-decoration: none;
   border: 0 none;
   display: block;
-  width: 60px;
-  height: 60px;
-  background-color: #303030;
+  width: 58px;
+  height: 58px;
+  background-color: #f34242;
 
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -644,7 +645,7 @@ footer .social-links li:first-child {
   transition: all 0.2s ease-in-out;
 
   color: rgb(183, 166, 230);
-  font-size: 55px;
+  font-size: 48px;
   line-height: 60px;
   border-radius: 100%;
 }

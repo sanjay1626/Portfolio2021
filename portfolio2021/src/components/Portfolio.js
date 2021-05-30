@@ -1,40 +1,81 @@
 import React, {Component} from 'react';
-
-
+import Project1 from '../img/portfolio/TheBrewery.png'
+import Project2 from '../img/portfolio/Project2.png'
+import Project3 from '../img/portfolio/WeatherDashboard.png'
+import Project4 from '../img/portfolio/employeedirectory.png'
+import Project5 from '../img/portfolio/Project5.png'
 class Portfolio extends Component {
     render () {
         return(
-             
-              
                     <div className ="flex-container" id="portfolio">
                     <div id="myCarousel" className="carousel slide" data-ride="carousel">
             {/* Wrapper for slides */}
             <div className="carousel-inner">
               <div className="item active">
-                <img src="https://www.cifras.com.br/arquivos/artistas/l/led_zeppelin_02_big.jpg" /> 
+                <img src={ Project1} /> 
                 <div class="carousel-caption">
-                  <h4><a href="#">LedZeppelin</a></h4>
-                  <p>Led Zeppelin were an English rock band formed in London in 1968. The group consisted of vocalist Robert Plant, guitarist Jimmy Page, bassist/keyboardist John Paul Jones, and drummer John Bonham.</p>
+                  <h4><a href="https://cdrobinsoniii.github.io/brewery-tour/ ">Brewery Tour </a>
+                  <a href=" https://github.com/CDRobinsonIII/brewery-tour" ><i class="fab fa-github"></i></a></h4>
+                  <ul>
+                    <li>Our group created a web application that searched for local micro breweries in the city the user typed in the search box. The goal of the web application was to generate a brewery tasting tour map based on the user's choices from the list of breweries provided.</li>
+                    
+                  </ul>
+                  
               </div>
               </div>{/* End Item */}
               <div className="item">
-                <img src="https://jazzdesk.files.wordpress.com/2019/11/ron_carter_danny_simmons_brown_beatnik_tomes.jpg" />
+                <img src={Project2} />
                 <div class="carousel-caption">
-                  <h4><a href="#">Ron Carter & Danny Simmons</a></h4>
-                  <p>The Brown Beatnik Tomes – Live at BRIC House is a unique and powerful collaboration between poet/artist Danny Simmons and legendary jazz bassist Ron Carter. </p>
+                  <h4><a href="https://ness-project.herokuapp.com/">Severe Weather Alert (SWA) </a>
+                  <a href=" https://github.com/highwolfx/severe-weather-alerts" ><i class="fab fa-github"></i></a></h4>
+                  <ul>
+                    <li>
+                    Our group created a web application to sign up for severe weather alerts, focused on earthquakes in your desired location.
+                    </li>
+                   
+                  </ul>
+                  
               </div>
               </div>{/* End Item */}
               <div className="item">
-                <img src="https://floridatheatre.showare.com/uplimage/TicketBanner-CALZeppelinII.JPG" />
-                
-              </div>{/* End Item */}
+              <img src={Project3} />
+                <div class="carousel-caption">
+                  <h4><a href="https://sanjay1626.github.io/Weather-Dashboard/">Weather Forcast Dashboard </a>
+                  <a href="https://github.com/sanjay1626/Weather-Dashboard.git" ><i class="fab fa-github"></i></a></h4>
+                  <ul>
+                    <li>
+                    Weather Dashboard that shows current and 5-days forecast
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
               <div className="item">
-                <img src="http://hardrockhaven.net/online/wp-content/uploads/2020/10/Wildness.jpg" />
-                
-              </div>{/* End Item */}
+                <img src={Project4} />
+                <div class="carousel-caption">
+                  <h4><a href="https://sanjay1626.github.io/Employee-Directory/">Employee Directory </a>
+                  <a href="https://github.com/sanjay1626/Employee-Directory.git" ><i class="fab fa-github"></i></a></h4>
+                  <ul>
+                    <li>
+                    Search and view employee information
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
               <div className="item">
-                <img src="https://www.cifras.com.br/arquivos/artistas/b/black_sabbath_2013_02_big.jpg" />
-                
+                <img src={Project5} />
+                <div class="carousel-caption">
+                  <h4><a href="https://drive.google.com/file/d/19VeQr7q0brCgmRHAuJwkXTsUKZQATwmS/view">Exquisite Corpse Sound Bath </a>
+                  <a href="https://github.com/sanjay1626/Exquisite-Corpse-Sound-Bath-.git" ><i class="fab fa-github"></i></a></h4>
+                  <ul>
+                    <li>
+                    Our group created a music application that will randomly select three beats from the database and play along with recorded sound by user.
+
+                    </li>
+                   
+                  </ul>
+                </div>
               </div>{/* End Item */}
               
             </div>{/* End Carousel Inner */}
