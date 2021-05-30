@@ -195,7 +195,7 @@ ul#nav li.current a {
   float: left;
   border-radius: 20rem;
   height: 15rem;
-
+  opacity: 80%;
   margin-right: 20px;
 }
 .typingeffect {
