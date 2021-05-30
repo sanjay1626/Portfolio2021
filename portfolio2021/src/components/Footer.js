@@ -7,9 +7,14 @@ class Footer extends Component{
             <div className="row" >
                 <div className = "col">
                     <ul className ="social-links">
-                       
+                        <li> <a href="https://github.com/sanjay1626" ><i class="fab fa-github"></i> </a></li>
+                        <li><a href="https://Instagram.com" ><i class="fab fa-instagram"></i> </a></li>
+                        <li><a href="https://www.facebook.com/sanjay.gonsalves.96" ><i class="fab fa-facebook-f"></i> </a></li>
+                        <li><a href="www.linkedin.com/in/sanjay-gonsalves-61a74b39" ><i class="fab fa-linkedin-in"></i> </a></li>
+                    
                     
                     <div className ='copyright'>
+                           
                         <li>&copy; Copyright 2021 Sanjay Gonsalves</li>
                         <li>Design by <a title="Styleshout" href="https://github.com/sanjay1626">Monkey@Brain</a></li>
                     </div>  

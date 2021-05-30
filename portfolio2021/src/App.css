@@ -563,9 +563,9 @@ aside > p {
 
 footer {
   padding-top: 0rem;
-  margin-bottom: 0px;
+  margin-top: 0px;
   color: #303030;
-  font-size: 14px;
+  font-size: 10px;
   text-align: center;
   position: relative;
 }
@@ -608,7 +608,7 @@ footer .social-links {
   margin: 0px 0 30px 0;
   padding: 0;
   font-size: 15px;
-  padding-top: 8rem;
+  padding-top: 3rem;
   margin-bottom: 0rem;
   padding-bottom: 10px;
 }
@@ -616,8 +616,9 @@ footer .social-links li {
   display: inline-block;
   margin: 0;
   padding: 0;
-  margin-left: 42px;
+  margin-left: 22px;
   color: #f06000;
+  align-items: center;
 }
 
 footer .social-links li:first-child {
@@ -626,7 +627,7 @@ footer .social-links li:first-child {
 /* Go To Top Button */
 #go-top {
   position: absolute;
-  top: -1px;
+  top: -60px;
   left: 50%;
   margin-left: -30px;
 }
@@ -634,9 +635,9 @@ footer .social-links li:first-child {
   text-decoration: none;
   border: 0 none;
   display: block;
-  width: 58px;
-  height: 58px;
-  background-color: #f34242;
+  width: 48px;
+  height: 48px;
+  background-color: #3f3939;
 
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -645,8 +646,8 @@ footer .social-links li:first-child {
   transition: all 0.2s ease-in-out;
 
   color: rgb(183, 166, 230);
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 38px;
+  line-height: 45px;
   border-radius: 100%;
 }
 #go-top a:hover {
