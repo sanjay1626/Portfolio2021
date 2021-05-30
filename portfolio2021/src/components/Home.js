@@ -26,7 +26,7 @@ class Home extends Component{
                   </nav>
                   <div className="row banner">
                       <div className = "banner-text">
-                          <h1>
+                          <h1 className="responsive-headline">
                           <img src={profilepic} className = "profilepic" alt="Sanjay Gonsalves"></img>
                           <ReactTypingEffect className="typingeffect" text={['Hi,',', I am Sanjay Gonsalves','San Diego Web Developer']} speed={30} eraseDelay={500}
                                                                                                 
@@ -46,7 +46,7 @@ class Home extends Component{
                       
                   </div>
                   <p className="scrolldown">
-                        <a className="smoothscroll" href="#about"><i class="fas fa-arrow-circle-down"></i></a>
+                        <a className="smoothscroll" href="#about"><i className="fas fa-arrow-circle-down"></i></a>
                   </p>
                 
             </header>
