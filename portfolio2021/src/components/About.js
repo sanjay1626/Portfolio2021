@@ -7,7 +7,10 @@ class About extends Component {
             <section id="about">
                 <div className="row  ">
                     <div className="three columns ">
-                        <img className="biopic" id="biopic" src={biopic} alt="Sanjay Gonsalves"></img>
+                        <div id = "biopic">
+                        <img className="biopic"  src={biopic} alt="Sanjay Gonsalves"></img>
+                        </div>
+                        
     
                         <div className ="nine cloumns main-col">
                             <h2>About Me</h2>
