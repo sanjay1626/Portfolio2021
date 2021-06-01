@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio2021/static/css/main.b53c1edb.chunk.css",
+    "main.css": "/Portfolio2021/static/css/main.b93588c5.chunk.css",
     "main.js": "/Portfolio2021/static/js/main.1878b825.chunk.js",
     "main.js.map": "/Portfolio2021/static/js/main.1878b825.chunk.js.map",
     "runtime-main.js": "/Portfolio2021/static/js/runtime-main.bba34048.js",
@@ -8,7 +8,7 @@
     "static/js/2.b0c547cc.chunk.js": "/Portfolio2021/static/js/2.b0c547cc.chunk.js",
     "static/js/2.b0c547cc.chunk.js.map": "/Portfolio2021/static/js/2.b0c547cc.chunk.js.map",
     "index.html": "/Portfolio2021/index.html",
-    "static/css/main.b53c1edb.chunk.css.map": "/Portfolio2021/static/css/main.b53c1edb.chunk.css.map",
+    "static/css/main.b93588c5.chunk.css.map": "/Portfolio2021/static/css/main.b93588c5.chunk.css.map",
     "static/js/2.b0c547cc.chunk.js.LICENSE.txt": "/Portfolio2021/static/js/2.b0c547cc.chunk.js.LICENSE.txt",
     "static/media/Avatar.154df576.png": "/Portfolio2021/static/media/Avatar.154df576.png",
     "static/media/Bio.1c37eeda.png": "/Portfolio2021/static/media/Bio.1c37eeda.png",
@@ -17,13 +17,12 @@
     "static/media/TheBrewery.91e14656.png": "/Portfolio2021/static/media/TheBrewery.91e14656.png",
     "static/media/WeatherDashboard.37bc863e.png": "/Portfolio2021/static/media/WeatherDashboard.37bc863e.png",
     "static/media/employeedirectory.acfd91d2.png": "/Portfolio2021/static/media/employeedirectory.acfd91d2.png",
-    "static/media/App.css": "/Portfolio2021/static/media/header-background.8d42ded2.jpg",
     "static/media/resumeDownload.0459d6bf.pdf": "/Portfolio2021/static/media/resumeDownload.0459d6bf.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.bba34048.js",
     "static/js/2.b0c547cc.chunk.js",
-    "static/css/main.b53c1edb.chunk.css",
+    "static/css/main.b93588c5.chunk.css",
     "static/js/main.1878b825.chunk.js"
   ]
 }
