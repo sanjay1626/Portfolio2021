@@ -24,7 +24,7 @@ class Home extends Component{
                         
                         
                   </nav>
-                  <div className="row banner">
+                  <div className="banner">
                       <div className = "banner-text">
                           <h1>
                           <img src={profilepic} className = "profilepic" alt="Sanjay Gonsalves"></img>
