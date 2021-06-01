@@ -10,10 +10,6 @@ body {
   );
 }
 
-.App {
-  background-color: #2f2d2e;
-}
-
 header {
   position: relative;
   height: 650px;
