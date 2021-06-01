@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import profilepic from '../img/Avatar.jpg'
+import profilepic from '../img/portfolio/Avatar.png'
 import Social from './Social'
 import ReactTypingEffect from 'react-typing-effect';
 class Home extends Component{
@@ -26,7 +26,7 @@ class Home extends Component{
                   </nav>
                   <div className="row banner">
                       <div className = "banner-text">
-                          <h1 className="responsive-headline">
+                          <h1>
                           <img src={profilepic} className = "profilepic" alt="Sanjay Gonsalves"></img>
                           <ReactTypingEffect className="typingeffect" text={['Hi,',', I am Sanjay Gonsalves','San Diego Web Developer']} speed={30} eraseDelay={500}
                                                                                                 

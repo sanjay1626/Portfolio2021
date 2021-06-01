@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import biopic from "../img/Bio.jpg"
+import biopic from "../img/portfolio/Bio.png"
 import resumeDownload from "../img/resumeDownload.pdf"
 class About extends Component {
     render() {
         return (
             <section id="about">
                 <div className="row  ">
-                    <div className="three columns ">
-                        <div id = "biopic">
+                    <div className="col ">
+                        <div>
                         <img className="biopic"  src={biopic} alt="Sanjay Gonsalves"></img>
                         </div>
                         
