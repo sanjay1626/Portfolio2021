@@ -176,7 +176,6 @@ ul#nav li.current a {
 header .profilepic {
   border-radius: 20rem;
   height: 15rem;
-  opacity: 80%;
 }
 #about .biopic {
   float: left;
@@ -193,7 +192,6 @@ header .profilepic {
   margin-left: 15rem;
   text-shadow: 0px 5px 6px rgba(0, 0, 0, 0.8);
   font: 80px/1.1em "opensans-bold", sans-serif;
-  opacity: 85%;
 }
 /* ------------------------------------------------------------------ */
 /* c. About Section
