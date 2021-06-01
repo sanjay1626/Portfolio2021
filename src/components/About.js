@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import biopic from "../img/Bio.jpg"
+import biopic from "../assets/Bio.jpg"
 import resumeDownload from "../img/resumeDownload.pdf"
 class About extends Component {
     render() {
