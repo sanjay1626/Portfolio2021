@@ -2,11 +2,7 @@
   margin: 0;
   padding: 0;
 }
-html {
-  background: #161415 url(../src/img/header-background.jpg) no-repeat top center;
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
-}
+
 body {
   background-color: transparent;
 }
