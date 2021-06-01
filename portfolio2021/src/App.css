@@ -2,13 +2,26 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background: linear-gradient(
+    60deg,
+    rgb(233, 227, 229) 50%,
+    rgb(87, 87, 88) 80%
+  );
+}
 
-header .App {
+.App {
+  background-color: #2f2d2e;
+}
+
+header {
   position: relative;
   height: 650px;
   min-height: 500px;
   width: 100%;
-
+  background: #161415 url(../src/img/header-background.jpg) no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
 }
@@ -173,12 +186,12 @@ ul#nav li.current a {
 .social i:hover {
   color: #e41717;
 }
-header .profilepic {
+.profilepic {
   border-radius: 20rem;
   height: 15rem;
   opacity: 80%;
 }
-#about .biopic {
+.biopic {
   float: left;
   border-radius: 20rem;
   height: 15rem;
@@ -222,7 +235,7 @@ header .profilepic {
   color: rgb(241, 134, 134);
   margin-bottom: 12px;
   padding-left: 5px;
-  margin-left: 3px;
+
   float: left;
 }
 #about p {
@@ -617,11 +630,10 @@ footer .social-links li:first-child {
   top: -60px;
   left: 50%;
   margin-left: -30px;
-  opacity: 70%;
 }
 #go-top a {
   text-decoration: none;
-  border: 1px solid rgb(158, 158, 158);
+  border: 0 none;
   display: block;
   width: 48px;
   height: 48px;
