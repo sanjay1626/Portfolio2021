@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import profilepic from '../img/assets/Avatar.jpg'
+import profilepic from '../img/assets/Avatar.png'
 import Social from './Social'
 import ReactTypingEffect from 'react-typing-effect';
 class Home extends Component{
