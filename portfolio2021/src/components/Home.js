@@ -2,6 +2,7 @@ import React, { Component} from 'react';
 import profilepic from '../img/portfolio/Avatar.png'
 import Social from './Social'
 import ReactTypingEffect from 'react-typing-effect';
+
 class Home extends Component{
     render(){
         
