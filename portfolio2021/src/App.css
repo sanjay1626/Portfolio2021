@@ -2,15 +2,20 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  background-color: black;
+  background-image: url("../src/img/header-background.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
+body {
+  background-color: transparent;
+}
 header {
   position: relative;
   height: 650px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../src/img/header-background.jpg) no-repeat top center;
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
 
   text-align: center;
   overflow: hidden;
