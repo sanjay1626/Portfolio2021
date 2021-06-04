@@ -94,11 +94,6 @@ header .scrolldown a:hover {
   color: #11abb0;
 }
 
-.opaque {
-  /* Modern Browsers */
-  opacity: 0.5;
-}
-
 /* primary navigation
 --------------------------------------------------------------------- */
 
@@ -194,13 +189,13 @@ ul#nav li.current a {
 .profilepic {
   border-radius: 20rem;
   height: 15rem;
-  opacity: 80%;
+  opacity: 80% !important;
 }
 .biopic {
   float: left;
   border-radius: 20rem;
   height: 15rem;
-  opacity: 80%;
+  opacity: 80% !important;
   margin-right: 20px;
 }
 .typingeffect {
