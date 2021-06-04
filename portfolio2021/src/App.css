@@ -3,8 +3,7 @@
   padding: 0;
 }
 .App {
-  text-align: center;
-  opacity: 0.8%;
+  opacity: 100%;
 }
 
 body {
@@ -14,7 +13,7 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-.App {
+header {
   position: relative;
   height: 650px;
   min-height: 500px;
