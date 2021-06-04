@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+.App {
+  text-align: center;
+  opacity: 85%;
+}
 
 body {
   background-color: transparent;
