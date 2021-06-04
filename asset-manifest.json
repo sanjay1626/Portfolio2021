@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio2021/static/css/main.ee406af2.chunk.css",
-    "main.js": "/Portfolio2021/static/js/main.9dda49ca.chunk.js",
-    "main.js.map": "/Portfolio2021/static/js/main.9dda49ca.chunk.js.map",
+    "main.css": "/Portfolio2021/static/css/main.a2690477.chunk.css",
+    "main.js": "/Portfolio2021/static/js/main.1878b825.chunk.js",
+    "main.js.map": "/Portfolio2021/static/js/main.1878b825.chunk.js.map",
     "runtime-main.js": "/Portfolio2021/static/js/runtime-main.bba34048.js",
     "runtime-main.js.map": "/Portfolio2021/static/js/runtime-main.bba34048.js.map",
     "static/js/2.b0c547cc.chunk.js": "/Portfolio2021/static/js/2.b0c547cc.chunk.js",
     "static/js/2.b0c547cc.chunk.js.map": "/Portfolio2021/static/js/2.b0c547cc.chunk.js.map",
     "index.html": "/Portfolio2021/index.html",
-    "static/css/main.ee406af2.chunk.css.map": "/Portfolio2021/static/css/main.ee406af2.chunk.css.map",
+    "static/css/main.a2690477.chunk.css.map": "/Portfolio2021/static/css/main.a2690477.chunk.css.map",
     "static/js/2.b0c547cc.chunk.js.LICENSE.txt": "/Portfolio2021/static/js/2.b0c547cc.chunk.js.LICENSE.txt",
     "static/media/Avatar.154df576.png": "/Portfolio2021/static/media/Avatar.154df576.png",
     "static/media/Bio.1c37eeda.png": "/Portfolio2021/static/media/Bio.1c37eeda.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.bba34048.js",
     "static/js/2.b0c547cc.chunk.js",
-    "static/css/main.ee406af2.chunk.css",
-    "static/js/main.9dda49ca.chunk.js"
+    "static/css/main.a2690477.chunk.css",
+    "static/js/main.1878b825.chunk.js"
   ]
 }
