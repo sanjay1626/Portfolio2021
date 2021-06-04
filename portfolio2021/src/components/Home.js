@@ -28,11 +28,18 @@ class Home extends Component{
                   <div className="row banner">
                       <div className = "banner-text">
                           <h1>
-                          <img src={profilepic} className = "profilepic" alt="Sanjay Gonsalves"></img></h1>
+                          <img src={profilepic} className = "profilepic" alt="Sanjay Gonsalves"></img>
                           <ReactTypingEffect className="typingeffect" text={['Hi,',', I am Sanjay Gonsalves','San Diego Web Developer']} speed={30} eraseDelay={500}
                                                                                                 
                           />
-                           <hr />
+                          
+                          
+
+
+
+                          
+                          </h1>
+                          <hr />
                          <h3>
                              <Social />
                          </h3>
