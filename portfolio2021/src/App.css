@@ -2,22 +2,26 @@
   margin: 0;
   padding: 0;
 }
-.App {
-  opacity: 0.5%;
+body {
+  background: linear-gradient(
+    60deg,
+    rgb(233, 227, 229) 50%,
+    rgb(87, 87, 88) 80%
+  );
 }
 
-body {
-  background-color: transparent;
-  background-color: black;
-  background-image: url("../src/img/header-background.jpg");
-  background-position: center;
-  background-attachment: fixed;
+.App {
+  background-color: #2f2d2e;
 }
+
 header {
   position: relative;
   height: 650px;
   min-height: 500px;
   width: 100%;
+  background: #161415 url(../src/img/header-background.jpg) no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
 }
