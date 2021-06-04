@@ -4,6 +4,7 @@
 }
 .App {
   text-align: center;
+  opacity: 0.8%;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-.App-header {
+.App {
   position: relative;
   height: 650px;
   min-height: 500px;
