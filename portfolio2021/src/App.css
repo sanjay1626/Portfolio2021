@@ -5,6 +5,10 @@
 
 body {
   background-color: transparent;
+  background-color: black;
+  background-image: url("../src/img/header-background.jpg");
+  background-position: center;
+  background-attachment: fixed;
 }
 header {
   position: relative;
