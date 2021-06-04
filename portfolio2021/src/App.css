@@ -94,6 +94,11 @@ header .scrolldown a:hover {
   color: #11abb0;
 }
 
+.opaque {
+  /* Modern Browsers */
+  opacity: 0.5;
+}
+
 /* primary navigation
 --------------------------------------------------------------------- */
 
