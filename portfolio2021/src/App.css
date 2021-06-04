@@ -44,6 +44,7 @@ header .banner {
 header .banner-text {
   width: 100%;
   margin-bottom: 20rem;
+  opacity: 1 !important;
 }
 header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
@@ -189,13 +190,13 @@ ul#nav li.current a {
 .profilepic {
   border-radius: 20rem;
   height: 15rem;
-  opacity: 80% !important;
+  opacity: 80%;
 }
 .biopic {
   float: left;
   border-radius: 20rem;
   height: 15rem;
-  opacity: 80% !important;
+  opacity: 80%;
   margin-right: 20px;
 }
 .typingeffect {
