@@ -21,6 +21,7 @@ header {
   -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
+  background-attachment: fixed;
 }
 header:before {
   content: "";
@@ -41,7 +42,6 @@ header .banner {
 header .banner-text {
   width: 100%;
   margin-bottom: 20rem;
-  opacity: 1 !important;
 }
 header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
@@ -49,6 +49,7 @@ header .banner-text h1 {
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+  opacity: 0.8;
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
