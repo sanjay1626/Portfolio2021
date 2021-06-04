@@ -3,16 +3,12 @@
   padding: 0;
 }
 body {
-  background: linear-gradient(
-    60deg,
-    rgb(233, 227, 229) 50%,
-    rgb(87, 87, 88) 80%
-  );
+  background: transparent;
 }
 
 .App {
   background-color: #2f2d2e;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 header {
